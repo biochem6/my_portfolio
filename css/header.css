@@ -1,0 +1,48 @@
+.header {
+	height: 1.5rem;
+}
+.nav_bar {
+	display: flex;
+	justify-content: flex-end;
+}
+.anchor {
+	color: black;
+	text-decoration: none;
+	margin-left: 1.0rem;
+	font-size: 0.85rem;
+	font-family: "Open Sans", serif;
+	padding: 2.5px;
+	border: 1px solid white;
+}
+.anchor:hover {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+/*************Non Mobile***********************************
+*
+*
+*
+************************************************************/
+@media screen and (min-width: 500px){
+	.header {
+		height: 3rem;
+	}
+	.nav_bar {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.anchor {
+		color: black;
+		text-decoration: none;
+		margin: 0 1rem 0 1rem;
+		font-size: 1.8rem;
+		font-family: "Open Sans", serif;
+		padding: 5px;
+		border: 1px solid white;
+	}
+	.anchor:hover {
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+}
+/***************************************************************/

@@ -1,0 +1,74 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+
+
+/*-------------DESKTOP------------------*/
+
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nameContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: calc(100vh - 65px);
+	width: 60%;
+}
+
+
+
+.name_div {
+	font-family: "Roboto", san-serif; 
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 6.5rem;
+	height: 150px;
+}
+
+.textContainer {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+.text {
+	height: 2rem;
+}
+
+
+.name {
+	height: 150px;
+	margin: 0 5px 0 5px;
+}
+
+#A {
+	color: #00CBFF;
+}
+
+#N {
+	color: #1C6E8C;
+}
+
+#D {
+	color: #274156;
+}
+
+#R {
+	color: #381C66;
+}
+
+#E {
+	color: #660062;
+}
+
+#W {
+	color: #660028;
+}

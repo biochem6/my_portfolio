@@ -1,0 +1,285 @@
+:root{
+    --font-titles: Times New Roman;
+    --font-text: Arial;
+    --text-color: rgb(51, 51, 51);
+    --title-color: black;
+    --font-text-size: 1.7rem;
+    --font-text-size-sub: 0.85rem;
+}
+html {
+    margin: 0;
+}
+#resume_id {
+    color: darkorange;
+}
+#resume_id:hover {
+    cursor: default;
+    border: 1px solid white;
+}
+#container {
+    margin: 2% 2.0% 0 2.0%;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 5px 10px 18px #888888;
+    color: var(--text-color);
+}
+legend {
+    font-family: var(--font-titles);
+    color: var(--title-color);
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+fieldset {
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    font-family: var(--font-text);
+    margin: 0;
+    padding: 0;
+}
+
+/********************INFO*************************************
+*
+*
+***************************************************************/
+.info_div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.info_start {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+} 
+.info_end {
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 0;
+}
+.github {
+    text-decoration: none;
+    color: blue;
+}
+.github:hover {
+    color: purple;
+    transition-duration: 80ms;
+    transition-delay: 30ms;
+}
+/*******************Professional Statement***************************************
+*
+*
+*
+*****************************************************************/
+
+.opening_text {
+    margin: 0;
+    font-size: 0.9rem;
+    margin: 0 40px 0 40px;
+    font-family: var(--font-text);
+}
+
+/*******************SKILLS***************************************
+*
+*
+*
+*****************************************************************/
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.skillContainer {
+    margin: 0;
+    padding: 0;
+}
+.leftSkills {
+
+
+}
+.top {
+    font-size: var(--font-text-size);
+}
+
+.sub {
+    font-size: var(--font-text-size-sub);
+    padding-inline-start: 40px;
+    font-style: italic;
+    list-style-type: circle;
+}
+
+/***************************************************************/
+
+/*******************EXPERIENCE***************************************
+*
+*
+*
+*****************************************************************/
+.job {
+    margin-bottom: 1rem;
+    font-size: var(--font-text-size);
+}
+.title {
+    font-weight: bolder;
+
+}
+.job-description {
+    list-style-type: circle;
+    line-height: 1rem;
+    padding-inline-start: 40px;
+}
+
+#education {
+    font-size: 1.8rem;
+}
+#grad {
+    font-size: 1.6rem;
+}
+
+/***************************************************************/
+/*******************Resume Links***************************************
+*
+*
+*
+*****************************************************************/
+.links {
+    display: flex;
+    justify-content: center;
+}
+.resume_link {
+    padding: 2.5rem;
+    border: 1px solid blue;;
+    text-decoration: none;
+    margin: 2rem 1rem 0 1rem;
+    box-shadow: 5px 5px 10px #888888;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.resume_link:hover {
+    color: white;
+    background: darkblue;
+    border: 1px solid black;
+    transition-duration: 180ms;
+    transition-delay: 50ms;
+}
+
+@media screen and (min-width: 1600px) {
+    #container {
+        margin: 2.5% 32% 0 32%;
+    }
+
+    legend {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .info_start {
+        font-size: 1.2rem;
+    }
+    .top{
+        font-size: 1.2rem;
+    }
+    .sub {
+        font-size: 1.0rem;
+    }
+    .job {
+        font-size: 1.0rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    #education {
+        font-size: 1.2rem;
+    }
+    #grad {
+        font-size: 1.0rem;
+    }
+    .resume_link {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    #container {
+        margin: 2.5% 26% 0 26%;
+    }
+
+    legend {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .info_start {
+        font-size: 1.2rem;
+    }
+    .top{
+        font-size: 1.2rem;
+    }
+    .sub {
+        font-size: 1.0rem;
+    }
+    .job {
+        font-size: 1.0rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    #education {
+        font-size: 1.2rem;
+    }
+    #grad {
+        font-size: 1.0rem;
+    }
+    .resume_link {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    #container {
+        margin: 2.5% 20% 0 20%;
+    }
+
+    legend {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .info_start {
+        font-size: 1.2rem;
+    }
+    .top{
+        font-size: 1.2rem;
+    }
+    .sub {
+        font-size: 1.0rem;
+    }
+    .job {
+        font-size: 1.0rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    #education {
+        font-size: 1.2rem;
+    }
+    #grad {
+        font-size: 1.0rem;
+    }
+    .resume_link {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
