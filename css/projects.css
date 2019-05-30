@@ -63,6 +63,14 @@ img {
 img:hover {
 	cursor: pointer;
 }
+
+
+
+.ftw_container 	{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 /*----------tech sidebar-----------------*/
 
 .side {
@@ -112,7 +120,7 @@ img:hover {
 }
 
 /* Next & previous buttons */
-#prev, #next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -128,25 +136,18 @@ img:hover {
 }
 
 /* Position the "next button" to the right */
-#next {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-#prev:hover, #next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+.ftw_prev, .ftw_next {
+	background: slategray;
 }
 
 /* Number text (1/3 etc) */
